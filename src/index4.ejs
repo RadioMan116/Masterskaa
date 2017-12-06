@@ -1,0 +1,220 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Мастерская</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style><%- criticalStyle %></style>
+    <!--<link rel="stylesheet" href="/style/grid-system.css">-->
+</head>
+<body class="grid">
+<div class="grid-container">
+    <div class="block_welding box">
+        <div class="block_header">
+            <div class="header_list">
+                <ul>
+                    <li class="welding_li"><a href="index2.html">Главная</a></li>
+                    <li class="welding_li"><a href="index3.html">Мемориальные памятники</a></li>
+                    <li class="welding_li welding_color"><a href="index4.html">Сварочные работы</a></li>
+                    <li class="welding_li welding_color"><a href="index5.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block_box">
+            <p>Мастерская в Осиново <br>
+                +7(904)-567-84-64</p>
+        </div>
+    </div>
+    <div class="welding">
+        <div class="bread_crumbs">
+            <a href="index2.html">Главная</a> / Сварочные работы
+        </div>
+        <div class="welding_title">
+            <h2>О нашей работе</h2>
+        </div>
+        <div class="welding_title_2">
+            <h3>Полезная информация</h3>
+        </div>
+        <div class="welding_text">
+            Наша мастерская занимается сварочными работами, изготовлением металлоизделий,
+            нестандартных металлоконструкций различного назначения, любой сложности в том
+            числе по эскизам и чертежам заказчика. В некоторых изделиях возможно применение
+            механики и электрики на базе нашей мастерской.
+            К нам чаще всего обращаются для изготовления эксклюзивных, нестандартных
+            конструкций.
+        </div>
+    </div>
+    <div class="div_2">
+        <div class="div_2_title">
+            <h2>Виды работ</h2>
+        </div>
+        <div class="div_2_box">
+            <div class="box_2">
+                <h4>Ограды</h4>
+                <img src="/images/zabor_1.jpg" alt="Портфолио">
+                <p>
+                    В ассортименте <br>
+                    Цена: договорная
+                </p>
+            </div>
+            <div class="box_2">
+                <h4>Козырьки и навесы</h4>
+                <img src="/images/zabor_2.png" alt="Портфолио">
+                <p>
+                    В ассортименте <br>
+                    Цена: договорная
+                </p>
+            </div>
+            <div class="box_2">
+                <h4>Заборы</h4>
+                <img src="/images/zabor_3.png" alt="Портфолио">
+                <p>
+                    В ассортименте <br>
+                    Цена: договорная
+                </p>
+            </div>
+            <div class="box_2">
+                <h4>Перила</h4>
+                <img src="/images/zabor_4.jpg" alt="Портфолио">
+                <p>
+                    В ассортименте <br>
+                    Цена: договорная
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="metal">
+        <div class="metal_title">
+            <h2>Работы по металлу</h2>
+        </div>
+        <div class="metal_text">
+            Художественное оформление это:<br>
+            1. Наварка Кованных изделий<br>
+            2.Наварка металло изделий, табличек, и т. д.<br>
+        </div>
+    </div>
+    <div class="a_note">
+        <div class="note_title"><h3>На заметку</h3></div>
+        <div class="note_text">В первую очередь стоит отметить прочность материала и надежность. Именно из–за этого
+            его<br>
+            добавляют в различные конструкции, приборы и оборудование. <br>
+            Металл способен выдерживать тяжелейшие нагрузки. Он может стойко сохранять свои свойства<br>
+            даже при холодной и жаркой погоде. Современные покрытия делают его износостойким и<br>
+            долговечным.
+            С таким материалом проделывают различные процессы, резка металла осуществляется достаточно<br>
+            часто. Она способна изменить размер металлической детали и ее форму в кратчайшее время,<br>
+            прилагая минимум усилий.
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="title_carousel">
+            <h2>Примеры выполняемых работ</h2>
+        </div>
+        <div class="container_carousel_2">
+            <ul id="slides">
+                <li class="slide showing">
+                    <img src="/images/photo_zabor_1.jpg" alt="photo_1">
+                </li>
+                <li class="slide">
+                    <img src="/images/photo_zabor_2.jpg" alt="photo_2">
+                </li>
+                <li class="slide">
+                    <img src="/images/photo_zabor_3.jpg" alt="photo_3">
+                </li>
+                <li class="slide">
+                    <img src="/images/photo_zabor_4.jpg" alt="photo_4">
+                </li>
+            </ul>
+            <div class="buttons_2">
+                <button class="controls" id="previous">&lt;</button>
+                <button class="controls" id="pause">&#10074;&#10074;</button>
+                <button class="controls" id="next">&gt;</button>
+            </div>
+        </div>
+        <script>
+            var controls = document.querySelectorAll('.controls');
+            for(var i=0; i<controls.length; i++){
+                controls[i].style.display = 'inline-block';
+            }
+
+            var slides = document.querySelectorAll('#slides .slide');
+            var currentSlide = 0;
+            var slideInterval = setInterval(nextSlide,2000);
+
+            function nextSlide(){
+                goToSlide(currentSlide+1);
+            }
+
+            function previousSlide(){
+                goToSlide(currentSlide-1);
+            }
+
+            function goToSlide(n){
+                slides[currentSlide].className = 'slide';
+                currentSlide = (n+slides.length)%slides.length;
+                slides[currentSlide].className = 'slide showing';
+            }
+
+
+            var playing = true;
+            var pauseButton = document.getElementById('pause');
+
+            function pauseSlideshow(){
+                pauseButton.innerHTML = '&#9658;'; // play character
+                playing = false;
+                clearInterval(slideInterval);
+            }
+
+            function playSlideshow(){
+                pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
+                playing = true;
+                slideInterval = setInterval(nextSlide,2000);
+            }
+
+            pauseButton.onclick = function(){
+                if(playing){ pauseSlideshow(); }
+                else{ playSlideshow(); }
+            };
+
+            var next = document.getElementById('next');
+            var previous = document.getElementById('previous');
+
+            next.onclick = function(){
+                pauseSlideshow();
+                nextSlide();
+            };
+            previous.onclick = function(){
+                pauseSlideshow();
+                previousSlide();
+            };
+        </script>
+    <div class="block_5 box">
+        <div class="footer_container">
+            <div class="footer_contacts">
+                <h2 class="footer_title">Контакты:</h2>
+                <p>
+                    Мастерская в Осиново <br>
+                    +7(904)-567-84-64 <br>
+                    Зеленадольский р-н, <br>
+                    пос.Осиново, ул.Гагарина 15, <br>
+                    Гаражный сектор
+                </p>
+            </div>
+            <div class="footer_menu">
+                <h2 class="footer_title">Меню:</h2>
+                <ul>
+                    <li class="footer_li"><a href="index2.html">Главная</a></li>
+                    <li class="footer_li"><a href="index3.html">Мемориальные памятники</a></li>
+                    <li class="footer_li"><a href="index4.html">Сварочные работы</a></li>
+                    <li class="footer_li"><a href="index5.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer_signature">
+                <h2 class="footer_title">Сайт сделан:</h2>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

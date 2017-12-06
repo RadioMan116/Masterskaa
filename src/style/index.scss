@@ -1,0 +1,1239 @@
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.53;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
+.header {
+  width: 100%;
+  background: url("/images/masterskaya.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.helmet {
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(0, 0, 0, 0.37);
+}
+
+.helmet_menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  width: 60%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu:first-child {
+  border-bottom: 1px solid white;
+}
+
+.block__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 175px;
+
+}
+
+.header_block {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 167px;
+  background: rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  margin-top: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.block_info {
+  color: white;
+  height: 51%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.bl_if {
+  font-size: 29px;
+}
+
+.block_info a {
+  font-size: 16px;
+  color: white;
+}
+
+//.header_block_two {
+//  width: 318px;
+//  height: 217px;
+//  background: rgba(0, 0, 0, 0.3);
+//  border: 1px solid rgba(255, 255, 255, 0.42);
+//  display: flex;
+//  flex-direction: column;
+//  margin-top: 60px;
+//}
+//
+//.info_block {
+//  color: white;
+//  height: 0;
+//  width: 66%;
+//  padding: 25px 0 0 43px;
+//  font-size: 16px;
+//  text-align: left;
+//}
+//
+//.info_input {
+//  margin: 60px 0 0 42px;
+//  padding-top: 10px;
+//}
+
+.types_jobs {
+  width: 100%;
+  margin-top: 77px;
+}
+
+.title_jobs {
+  width: 194px;
+  background: #000;
+  color: white;
+  text-align: center;
+}
+
+.jobs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 77px;
+}
+
+.jobs_h3 {
+  font-family: DidactGothic, sans-serif;
+}
+
+.types {
+  width: 456px;
+  height: 330px;
+  position: relative;
+}
+
+.types a {
+  text-decoration: none;
+  color: black;
+}
+
+.types {
+  &:hover &__some {
+    display: block;
+  }
+}
+
+.types__some {
+  width: 456px;
+  height: 306px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: -39px;
+  font-size: 24px;
+}
+
+.types__some a {
+  color: white;
+  text-decoration: underline;
+  position: absolute;
+  top: 258px;
+  left: 15px;
+}
+
+.types__some {
+  display: none;
+}
+
+.company_policies {
+  margin-top: 73px;
+}
+
+.cp_tl {
+  background: #000;
+  width: 275px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cp_bl {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 70%;
+  padding-top: 59px;
+}
+
+.bl {
+  display: flex;
+}
+
+.tx {
+  text-align: center;
+}
+
+.information {
+  margin-top: 100px;
+  background: url("/images/ms_2.jpg") no-repeat;
+  background-size: cover;
+  height: 672px;
+}
+
+.in_rl {
+  margin: 0 auto;
+}
+
+.rules {
+  width: 682px;
+  height: 222px;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.51);
+  justify-content: center;
+  align-items: center;
+}
+
+.info_rules {
+  width: 671.2px;
+  height: 200.8px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.51);
+  line-height: 1.56;
+  padding-top: 15px;
+}
+
+.map {
+  margin-top: 52px;
+}
+
+.map_title {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  width: 339px;
+  margin: 0 auto;
+}
+
+.container_map {
+  display: flex;
+}
+
+.footer {
+  background: #000;
+  height: 250px;
+  width: 100%;
+  margin-top: 3px;
+}
+
+.ft_bl {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer_info {
+  color: white;
+}
+
+.ft_menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.ft_title, .mn_title, .ct_title {
+  color: white;
+}
+
+.ct_menu {
+  color: white;
+}
+
+.footer_menu, .contacts {
+  line-height: 1.53;
+}
+
+//New style index2
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.block_1 {
+  height: 100vh;
+  background: url("/images/masterskaya.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.block_header {
+  background: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  height: 10vh;
+}
+
+.header_list ul {
+  display: flex;
+}
+
+.block_1_li {
+  padding-left: 32px;
+  list-style: none;
+  color: white;
+}
+
+.block_1_li a {
+  text-decoration: none;
+  color: white;
+}
+
+.block_1_li:nth-child(1) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.block_1_li:nth-child(2):hover, .block_1_li:nth-child(3):hover, .block_1_li:nth-child(4):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.block_box {
+  background: rgba(0, 0, 0, 0.37);
+  width: 28%;
+  min-width: 15.3rem;
+  height: 11rem;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+}
+
+.block_box p {
+  width: 89%;
+  font-size: 25px;
+  color: white;
+}
+
+.container_block_2 {
+  width: 90%;
+  display: grid;
+  justify-self: center;
+}
+
+.block_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title ." "content sidebar" "title_2 title_2" "text text";
+}
+
+.title_bl_2 {
+  background: #000;
+  width: 32%;
+  height: 3rem;
+  grid-area: title;
+  align-self: center;
+  min-width: 12.9rem;
+  display: grid;
+  margin: 5rem 0 3rem;
+}
+
+.title_bl_2 h2 {
+  color: white;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+.job {
+  width: 91%;
+  min-width: 19.6rem;
+  height: fit-content;
+  grid-area: content;
+}
+
+.job_2 {
+  width: 91%;
+  min-width: 19.6rem;
+  height: fit-content;
+  grid-area: sidebar;
+}
+
+.job h3, .job_2 h3 {
+  color: black;
+}
+
+.job:hover, .job_2:hover {
+  cursor: pointer;
+}
+
+.job img:hover, .job_2 img:hover {
+  filter: brightness(50%);
+  transition: .2s;
+  .title_text {
+    display: block;
+  }
+}
+
+.job img, .job_2 img {
+  max-width: 100%;
+}
+
+.title_text {
+  display: none;
+  font-size: 19px;
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+
+.title_text a {
+  color: white;
+}
+
+.title_bl_3 {
+  width: 20%;
+  height: 3rem;
+  min-width: 17rem;
+  background: #000;
+  grid-area: title_2;
+  justify-self: center;
+  display: grid;
+  margin: 5rem 0 0;
+}
+
+.title_bl_3 h2 {
+  color: white;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+.block_2_text {
+  width: 98%;
+  grid-area: text;
+  justify-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.block_3 {
+  background: url("/images/ms_2.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.block_3 img {
+  max-width: 100%;
+}
+
+.block_3_text {
+  background: rgba(0, 0, 0, 0.37);
+  border: 1px solid white;
+  width: 51%;
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem auto 0;
+  text-align: center;
+  color: white;
+}
+
+.block__text {
+  width: 51%;
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto 0;
+  text-align: center;
+  color: white;
+}
+
+.block_4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 5rem;
+}
+
+.title_bl_4 {
+  width: 31%;
+  min-width: 21.4rem;
+  height: 3rem;
+  background: #000;
+  justify-self: center;
+  align-self: center;
+  color: white;
+  text-align: center;
+  margin: 5rem 0 0;
+}
+
+.title_bl_4 h2 {
+  margin: 0;
+  padding: 5px;
+}
+
+.map_4 {
+  align-self: center;
+  margin: 0 0 5rem;
+}
+
+.block_4_text {
+  width: 85%;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.block_5 {
+  display: grid;
+  width: 100%;
+  background: #000;
+}
+
+.footer_container {
+  width: 90%;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer_contacts p {
+  color: white;
+  line-height: 1.53;
+}
+
+.footer_menu ul {
+  padding: 0;
+}
+
+.footer_title {
+  color: white;
+}
+
+.footer_li {
+  list-style: none;
+}
+
+.footer_li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 895px) {
+  .block_box p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .block_box p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+  .block_2 {
+    grid-template-areas: "title title" "content content" "sidebar sidebar" "title_2 title_2" "text text";
+  }
+  .job, .job_2 {
+    justify-self: center;
+    align-self: center;
+  }
+  .job_2 {
+    padding: 0 0 8rem;
+  }
+  .title_bl_3 {
+    display: none;
+  }
+  .block_2_text {
+    display: none;
+    //grid-template-columns: 1fr 1fr;
+    //width: 50%;
+  }
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+  .header_list ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  body {
+    font-size: 80%;
+  }
+  .block_box p {
+    font-size: 15px;
+  }
+  .footer_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+//New style index3
+
+.block_stone {
+  height: 100vh;
+  background: url("/images/face.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.list_stone {
+  color: white;
+  padding-left: 32px;
+  list-style: none;
+}
+
+.list_stone a {
+  text-decoration: none;
+  color: white;
+}
+
+.list_stone:nth-child(2) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.list_stone:nth-child(1):hover, .list_stone:nth-child(3):hover, .list_stone:nth-child(4):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.monument {
+  padding: 2rem 0 0;
+  width: 90%;
+  display: grid;
+  justify-self: center;
+}
+
+.bread_crumbs {
+  height: 2rem;
+  width: 30%;
+  min-width: 19rem;
+  align-self: center;
+  padding: 0 0 1rem;
+}
+
+.bread_crumbs a {
+  color: black;
+}
+
+.monument_title {
+  width: 25%;
+  height: 3rem;
+  min-width: 13rem;
+  background: #000;
+  color: white;
+  display: grid;
+}
+
+.monument_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.monument_text {
+  width: 60%;
+  align-self: center;
+  padding: 2rem 0;
+}
+
+.div_3 {
+  width: 100%;
+  background: #f0f0f0;
+  display: grid;
+  justify-self: center;
+  padding: 2rem 0;
+}
+
+.container_div_3 {
+  width: 90%;
+  display: grid;
+  justify-self: center;
+}
+
+.div_3_title {
+  width: 28%;
+  height: 3rem;
+  min-width: 13.4rem;
+  color: white;
+  background: #000;
+  display: grid;
+  margin: 2rem 0 0;
+}
+
+.div_3_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.div_3_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0 2rem;
+}
+
+.div_box {
+  width: 17%;
+}
+
+.div_box img {
+  max-width: 100%;
+}
+
+.stone_work {
+  width: 90%;
+  display: grid;
+  justify-self: center;
+  padding: 5rem 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title ." "content saidbar";
+}
+
+.stone_work_title {
+  background: #000;
+  color: white;
+  width: 54%;
+  height: 3rem;
+  min-width: 15.6rem;
+  grid-area: title;
+  display: grid;
+}
+
+.stone_work_title h2 {
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+.stone_work_text {
+  width: 100%;
+  padding: 2rem 0;
+  min-width: 18.1rem;
+  align-self: center;
+  grid-area: content;
+}
+
+.stone_work_photo {
+  width: 70%;
+  min-width: 14.3rem;
+  grid-area: saidbar;
+  justify-self: center;
+}
+
+.stone_work_photo img {
+  max-width: 100%;
+}
+
+.a_note {
+  width: 71%;
+  display: grid;
+  padding: 2rem 0;
+  margin: 0 0 5rem;
+  justify-self: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.51);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.51);
+}
+
+.note_title {
+  width: 20%;
+  height: 3rem;
+  min-width: 8rem;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
+.note_text {
+  width: 99%;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.note_text p {
+  font-size: 14px;
+}
+
+.carousel {
+  width: 100%;
+  display: grid;
+}
+
+.title_carousel {
+  width: 38%;
+  height: 3rem;
+  color: white;
+  justify-self: center;
+  background: #000;
+  min-width: 25.8rem;
+  margin: 0 0 10rem;
+  display: grid;
+}
+
+.title_carousel h2 {
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+#slides {
+  position: relative;
+  width: 34%;
+  margin: 0 auto;
+  //height: 40rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container_carousel_1 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 40rem;
+}
+
+.container_carousel_2 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 25rem;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-width: 13rem;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  font-size: 40px;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
+  background-size: cover;
+}
+
+.slide img {
+  max-width: 100%;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+.controls {
+  display: none;
+}
+
+.controls {
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 10px 0 0 10px;
+  width: 25%;
+  min-width: 3rem;
+  height: 5rem;
+}
+
+.controls:hover,
+.controls:focus {
+  background: #eee;
+  color: #333;
+}
+
+.buttons_1 {
+  position: absolute;
+  left: 35%;
+  top: -20%;
+  z-index: 10;
+  font-size: 0;
+  width: 35%;
+  min-width: 13rem;
+}
+
+.buttons_2 {
+  position: absolute;
+  left: 34%;
+  top: -32%;
+  z-index: 10;
+  font-size: 0;
+  width: 35%;
+  min-width: 13rem;
+}
+
+@media screen and (max-width: 835px) {
+  .note_text p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .div_box {
+    width: 8rem;
+  }
+  .div_3_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .note_text p {
+    font-size: 12px;
+  }
+  .title_carousel {
+    min-width: 21.8rem;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .stone_work_photo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .title_carousel {
+    min-width: 19.8rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .div_3 {
+    height: 40rem;
+  }
+  .div_3_box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+//New style index4
+
+.block_welding {
+  height: 100vh;
+  background: url("/images/svarka.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.welding_li {
+  padding-left: 32px;
+  list-style: none;
+}
+
+.welding_li a {
+  text-decoration: none;
+  color: white;
+}
+
+.welding_li:nth-child(3) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.welding_li:nth-child(1):hover, .welding_li:nth-child(2):hover, .welding_li:nth-child(4):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.welding {
+  width: 90%;
+  display: grid;
+  padding: 2rem 0 0;
+  justify-self: center;
+}
+
+.welding_title {
+  width: 26%;
+  height: 3rem;
+  background: #000;
+  min-width: 14.8rem;
+  display: grid;
+  color: white;
+}
+
+.welding_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.welding_title_2 {
+  align-self: center;
+  font-weight: 400;
+  padding: 2rem 0 1rem;
+  margin: 0;
+}
+
+.welding_title_2 h2 {
+  margin: 0;
+}
+
+.welding_text {
+  width: 76%;
+  padding: 1rem 0 0;
+  text-align: left;
+}
+
+.div_2 {
+  width: 90%;
+  padding: 2rem 0;
+  display: grid;
+  justify-self: center;
+}
+
+.div_2_title {
+  width: 21%;
+  height: 3rem;
+  background: #000;
+  align-self: center;
+  min-width: 14.8rem;
+  color: white;
+  display: grid;
+}
+
+.div_2_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.div_2_box {
+  width: 80%;
+  padding: 5rem 0 2rem;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_2 {
+  width: 21%;
+}
+
+.box_2 img {
+  max-width: 100%;
+}
+
+.metal {
+  width: 90%;
+  height: 14rem;
+  display: grid;
+  justify-self: center;
+}
+
+.metal_title {
+  width: 30%;
+  height: 3rem;
+  background: #000;
+  align-self: center;
+  min-width: 18.8rem;
+  color: white;
+  display: grid;
+}
+
+.metal_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.metal_text {
+  align-self: center;
+}
+
+@media screen and (max-width: 685px) {
+  .div_2_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .box_2 {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .welding_color a {
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .div_2_box {
+    grid-template-columns: 1fr;
+  }
+  .box_2 {
+    width: 57%;
+    min-width: 10rem;
+  }
+}
+
+//New style index5
+
+.block_contacts {
+  height: 100vh;
+  background: url("/images/masterskaya.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_li {
+  color: white;
+  padding-left: 32px;
+  list-style: none;
+}
+
+.contacts_li a {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts_li:nth-child(4) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacts_li:nth-child(1):hover, .contacts_li:nth-child(2):hover, .contacts_li:nth-child(3):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacts {
+  width: 90%;
+  padding: 2rem 0 0;
+  display: grid;
+  justify-self: center;
+}
+
+.contacts_title {
+  background: #000;
+  width: 21%;
+  min-width: 11.8rem;
+  height: 3rem;
+  display: grid;
+}
+
+.contacts_title h2 {
+  margin: 0;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+.contacts_title_2 {
+  padding: 2rem 0 1rem;
+}
+
+.contacts_text {
+  width: 60%;
+}
+
+.contacts_info {
+  width: 90%;
+  padding: 5rem 0 3rem;
+  display: grid;
+  justify-self: center;
+}
+
+.info_title {
+  width: 30%;
+  height: 3rem;
+  background: #000;
+  align-self: center;
+  min-width: 19.8rem;
+  display: grid;
+  color: white;
+}
+
+.info_title h2 {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.info_text {
+  padding: 2rem 0;
+}
+
+.contacts_map {
+  width: 100%;
+  height: 32rem;
+  display: grid;
+}
+
+.map_tl h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.map_cts {
+  width: 100%;
+  height: 25rem;
+  background: #bbff88;
+}
