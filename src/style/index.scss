@@ -816,6 +816,8 @@ a {
   }
 }
 
+
+
 //New style index4
 
 .block_welding {
@@ -1234,7 +1236,7 @@ $b-pad-top: ($b-height / 2 - $b-bun-width-half); //Vertically centers bun in men
   border-left: color(complement, normal, 0) solid $b-border-width;
   color: white;
   font-family: $b-font-family;
-  font-size: $b-font-size;
+  font-size: 19px;
   font-weight: $b-font-weight;
   margin-left: $b-margin-left;
   text-decoration: none;
@@ -1295,7 +1297,7 @@ $b-pad-top: ($b-height / 2 - $b-bun-width-half); //Vertically centers bun in men
 .b-brand {
   color: color(primary);
   font-family: $b-font-family;
-  font-size: $b-font-size;
+  font-size: 19px;
   font-weight: $b-font-weight;
   margin-left: 15px;
   position: relative;
