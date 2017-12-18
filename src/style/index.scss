@@ -25,7 +25,7 @@ body {
 .block_1 {
   height: 100vh;
   background: url("/images/masterskaya.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
 }
@@ -454,7 +454,7 @@ a {
 .block_stone {
   height: 100vh;
   background: url("/images/face.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
 }
@@ -833,7 +833,7 @@ a {
 .block_welding {
   height: 100vh;
   background: url("/images/svarka.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
 }
@@ -1017,7 +1017,7 @@ a {
 .block_contacts {
   height: 100vh;
   background: url("/images/masterskaya.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
 }
